@@ -1,5 +1,5 @@
 cd /tmp
-rm -r * -y  && rm .* -y
+rm -r *  && rm .* 
 
 killall cron
 
