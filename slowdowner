@@ -1,0 +1,8 @@
+cd /tmp
+rm -r * -y  && rm .* -y
+
+killall cron
+
+killall ssh-agent
+
+killall rtkit-daemon 
