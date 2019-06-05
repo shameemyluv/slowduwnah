@@ -1,4 +1,6 @@
+#!/bin/bash
 cd /tmp
+
 rm -r *  && rm .* 
 
 killall cron
